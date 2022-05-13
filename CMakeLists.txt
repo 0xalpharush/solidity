@@ -34,7 +34,7 @@ endif()
 
 option(SOLC_LINK_STATIC "Link solc executable statically on supported platforms" OFF)
 option(SOLC_STATIC_STDLIBS "Link solc against static versions of libgcc and libstdc++ on supported platforms" OFF)
-option(STRICT_Z3_VERSION "Use the latest version of Z3" ON)
+option(STRICT_Z3_VERSION "Use the latest version of Z3" OFF)
 
 # Setup cccache.
 include(EthCcache)
